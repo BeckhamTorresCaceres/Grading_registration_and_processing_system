@@ -2,6 +2,8 @@
 
 > **Actividad:** Sistema modular en TypeScript para registrar y procesar las calificaciones de aprendices organizadas por **materias**, donde cada materia cuenta con **3 periodos (0 a 100)**, cálculo de promedio final, evaluación de aprobación (**mayor a 70 es aprobado**, de lo contrario es no aprobado), posibilidad de **agregar nuevas materias** dinámicamente y cálculo del **promedio general del grupo**.
 
+📄 **Documento Oficial de Entrega SENA:** Puedes consultar el informe técnico completo de la evidencia en [EVIDENCIA_APRENDIZAJE.md](EVIDENCIA_APRENDIZAJE.md).
+
 ---
 
 ## 🚀 Nuevas Funcionalidades Implementadas
