@@ -1,0 +1,27 @@
+{
+  "name": "grading_registration_and_processing_system",
+  "version": "1.0.0",
+  "description": "> **Actividad:** Una institución educativa necesita un sistema que permita registrar las calificaciones de varios aprendices, guardarlos en una lista, determinar si aprobó o no (calificación mayor a 70 es aprobado, de lo contrario es no aprobado), y mostrar el promedio general del grupo.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --noEmit && esbuild src/app.ts --bundle --sourcemap --outfile=js/app.js",
+    "typecheck": "tsc --noEmit",
+    "watch": "esbuild src/app.ts --bundle --sourcemap --outfile=js/app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeckhamTorresCaceres/Grading_registration_and_processing_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BeckhamTorresCaceres/Grading_registration_and_processing_system/issues"
+  },
+  "homepage": "https://github.com/BeckhamTorresCaceres/Grading_registration_and_processing_system#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}
